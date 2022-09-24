@@ -3,6 +3,7 @@ import "./todolist.css";
 import SingleTodo from "../singleTodo/SingleTodo";
 import AddTodoForm from "../addTodoForm/AddTodoForm";
 import DeleteButton from "../../../component/deleteTodos/DeleteButton";
+import TitleComponent from "../../../component/title/TitleComponent";
 
 import { useSelector } from "react-redux";
 
@@ -11,7 +12,7 @@ const TodoList = () => {
   console.log(todos);
   return (
     <div className="todoList">
-      <h1>Add A Your Todo</h1>
+      <TitleComponent />
       <AddTodoForm />
       <div className="todoList-ul">
         <SingleTodo />
