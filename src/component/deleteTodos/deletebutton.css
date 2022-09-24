@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 148px;
+  height: 45px;
+  border-width: 1px;
+  cursor: pointer;
+  color: #fff;
+  border-color: rgba(212, 23, 47, 1);
+  border-radius: 10px;
+  background: rgba(212, 23, 47, 1);
+}
+
+.button-content:hover {
+  background: rgba(187, 11, 34, 1);
+}
