@@ -1,0 +1,25 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border: solid 1px #ad637c;
+  border-radius: 10px;
+  margin: 2rem 2.5rem 2rem 2.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.todo-left::first-letter {
+  text-transform: capitalize;
+}
+
+.icons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.todo-form {
+  margin-top: 1rem;
+}
+
+.add-input {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  width: 55%;
+  border: solid 1px black;
+}
+
+.add-input:focus {
+  outline-style: none;
+  box-shadow: none;
+  border: solid 1px black;
+}
+
+.add-button {
+  font-size: 18px;
+  width: 148px;
+  height: 45px;
+  border-width: 1px;
+  color: #fff;
+  border-color: rgba(23, 126, 212, 1);
+  border-radius: 10px;
+  margin-left: 10px;
+  background: rgba(23, 126, 212, 1);
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: rgba(11, 119, 187, 1);
+}
+
+.update-button {
+  font-size: 18px;
+  width: 148px;
+  height: 45px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #f09001;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: #f09001;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background: #c47500;
+}

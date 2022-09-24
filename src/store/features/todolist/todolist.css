@@ -1,0 +1,16 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 40%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 1px 0px 16px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 0px 16px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 0px 16px 0px rgba(0, 0, 0, 1);
+}
+
+.todoList-ul {
+  list-style-type: none;
+}
